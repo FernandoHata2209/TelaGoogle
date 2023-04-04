@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial,sans-serif;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: #202124;
+    min-height: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+
+.header-info a{
+    font-size: 0.8rem;
+    color: #fdfdfd;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.header-info a:hover{
+    text-decoration: underline;
+}
+
+#login-button{
+    width: 6.7rem;
+    height: 2.3rem;
+    border-radius: 6px;
+    margin-left: 10px;
+    background-color: rgb(115, 177, 202);
+}
+
+#login-button:hover{
+    background-color: rgb(122, 187, 212);
+}
+
+#header-button{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 20px;
+    background-color: #202124;
+    color: #fdfdfd;
+}
+
+#header-button:hover{
+    background-color: rgb(65, 65, 65);
+}
+
+.header-info button{
+    border: none;
+}
+
+ a:hover{
+    text-decoration: dotted;
+}
+
+/* Central */
+
+.main{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    height: 77vh;
+}
+
+.main h1{
+    font-size: 6em;
+    margin-bottom: 20px;
+}
+
+.input-main{
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+    width: 580px;
+    height: 40px;
+    border: 0.5px solid #5f6368;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.input-main:hover{
+    background-color: rgb(63, 63, 63);
+    border: none;
+    box-shadow: -1px 1px 4px 0px rgba(0,0,0,0.75);
+}
+
+.input-main input{
+    display: flex;
+    height: 20px;
+    width: 430px;
+    margin: 0 5px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+#rainbow{
+    background: -webkit-linear-gradient(#4285F4, #DB4437, #F4B400, #0F9D58);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+#rainbow2{
+    background: -webkit-linear-gradient(#4285F4, #DB4437, #F4B400, #0F9D58);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.input-main i{
+    margin: 2px;
+    color: #5f6368;
+}
+
+i{
+    padding-left: 4px;
+}
+
+.main-btn{
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.main-btn a{
+    color: rgb(117, 187, 253);
+    text-decoration: none;
+}
+
+.main-btn a:hover{
+    text-decoration: underline;
+}
+
+.main button{
+    margin: 3px;
+    background-color: #303134;
+    border: none;
+    width: 140px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.main button:hover{
+    border: 1px solid rgb(94, 94, 94) ;
+}
+
+span{
+    margin: -13px;
+}
+
+#G{
+    color: #4285F4;
+}
+
+#O1{
+    color: #DB4437;
+} 
+
+#O2{
+    color: #F4B400;
+}
+
+#L{
+    color: #0F9D58;
+}
+
+#E{
+    color:  #DB4437;
+}
+
+.main-btn p{
+    color: #fdfdfd;
+    margin-top: 20px;
+    font-size: .8rem;
+}
+
+/* Rodape */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #171717;
+    color: #bdc1c6;
+    font-size: 14px;
+}
+
+.footer a{
+    color: #bdc1c6;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.first a{
+    margin-left: 10px;
+}
+
+.first{
+    margin: 10px;
+    padding: 14px;
+}
+
+.second a{
+    margin-right: 10px;
+}
